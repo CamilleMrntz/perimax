@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "630492228715",
+    "project_id": "perimax",
+    "storage_bucket": "perimax.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630492228715:android:4ffc32ad5e3b5ff97b152e",
+        "android_client_info": {
+          "package_name": "company.perimax"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630492228715-8sacas7mp7n7nnprlrfre70ihp2hbgej.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "company.perimax",
+            "certificate_hash": "0ffda90347559edc86ee5da5278ddb8642e443fc"
+          }
+        },
+        {
+          "client_id": "630492228715-qo2vi0vtlrrg93cuseec02hj16ch9m5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ7a1kAiXXsk03UxYfiGubanu5oVn5PHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630492228715-qo2vi0vtlrrg93cuseec02hj16ch9m5k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

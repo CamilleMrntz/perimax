@@ -1,0 +1,12 @@
+rules_version = '2';
+// Publiez pour la base "(default)" : Firestore > menu deroulant de la base > Regles > Publier.
+// Si App Check impose Firestore sans jeton valide, vous aurez aussi permission-denied.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Donnees par utilisateur connecte (meme uid que Firebase Auth, ex. Google).
+    match /users/{userId}/products/{productId} {
+      allow read, create, update, delete: if request.auth != null
+          && request.auth.uid == userId;
+    }
+  }
+}
